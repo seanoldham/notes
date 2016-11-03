@@ -1,10 +1,16 @@
-# notes
+notes
+=====
+
+### Summary
+
 My notes
 
 This was edited with http://dillinger.io 😱
 
-## Development
+Development
+=====
 
-### Rails
+Rails
+-----
 
-#### Searchkick
+### Searchkick
