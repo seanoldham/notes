@@ -8,10 +8,11 @@ My web development notes, snippets, and whatnot.
 Development
 =====
 
-Rails
+Ruby on Rails
 -----
 
-### Searchkick
+### [Searchkick](http://searchkick.org)
+
 
 ###### Partial Match
 
@@ -19,8 +20,7 @@ Can do [partial matches](https://github.com/ankane/searchkick#partial-matches). 
 ```ruby
 searchkick  text_end: [:number], text_middle: [:number]
 ```
-
-However, when I went to make it run, after `reindex` of course, instead of doing
+However, when I went to make it run, after `Drawing.reindex` of course, instead of doing
 ```ruby
 Drawing.search(params[:term], limit: 30, fields: [:number], match: [:text_end, :text_middle])
 ```
