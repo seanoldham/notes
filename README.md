@@ -3,9 +3,7 @@ notes
 
 ### Summary
 
-My notes
-
-This was edited with http://dillinger.io 😱
+My web development notes, snippets, and whatnot.
 
 Development
 =====
