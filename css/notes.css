@@ -18,7 +18,7 @@ textarea,
 input {
   font-family: Helvetica Neue, sans-serif;
   line-height: 1.6;
-  font-size: 13px;
+  font-size: 16px;
   color: #505050;
 }
 @media (max-width: 480px) {
@@ -110,12 +110,12 @@ a:hover {
   font-family: Menlo, monospace;
   background: #f3f6fb;
   padding: 1px 3px;
-  font-size: 0.95em;
+  font-size: 1em;
 }
 .content pre > code {
   display: block;
   background: transparent;
-  font-size: 0.85em;
+  font-size: 1em;
   letter-spacing: -1px;
 }
 .content blockquote :first-child {
@@ -199,14 +199,27 @@ a:hover {
 .content h3 ol {
   padding-top: 10px;
 }
-.content h1,
+.content h1 {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 2em;
+}
 .content h2 {
   text-transform: uppercase;
   letter-spacing: 1px;
-  font-size: 1.5em;
+  font-size: 1.8em;
 }
 .content h3 {
+  font-size: 1.6em;
+}
+.content h4 {
+  font-size: 1.4em;
+}
+.content h5 {
   font-size: 1.2em;
+}
+.content h6 {
+  font-size: 1em;
 }
 .content h1,
 .content h2,
@@ -255,7 +268,7 @@ body:not(.big-h3) .content h3 {
   padding-bottom: 10px;
 }
 body:not(.big-h3) .content h3 {
-  font-size: 0.9em;
+  font-size: 1.6em;
 }
 .content h1:first-child {
   padding-top: 0;
@@ -495,7 +508,7 @@ body.no-literate .content pre > code:hover::-webkit-scrollbar-thumb {
   text-rendering: optimizeLegibility;
   font-weight: bold;
   font-family: montserrat, sans-serif;
-  font-size: 13px;
+  font-size: 16px;
 }
 .header h1,
 .header h1 a,
