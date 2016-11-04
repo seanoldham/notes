@@ -1,19 +1,12 @@
-notes
-=====
-
-### Summary
-
 My web development notes, snippets, and whatnot.
 
-Development
+Ruby
 =====
 
-Ruby
+Hash
 -----
 
-### Hash
-
-###### [Dig](http://ruby-doc.org/core-2.3.0/Hash.html#method-i-dig)
+### [Dig](http://ruby-doc.org/core-2.3.0/Hash.html#method-i-dig)
 
 Ruby 2.3.0 added a cool new method for Hashes. `Hash.dig` lets me dive in the Hash without that ugly bracket notation.
 
@@ -30,12 +23,13 @@ But with `Hash.dig`, I can do `conditions.dig :currently, :summary`. It achieves
 If there's an error in the first example, it fails with `NoMethodError`. If there's an error in the `Hash.dig` method, it will just return nil.
 
 Ruby on Rails
+=====
+
+[Searchkick](http://searchkick.org)
 -----
 
-### [Searchkick](http://searchkick.org)
 
-
-###### Partial Match
+### Partial Match
 
 Can do [partial matches](https://github.com/ankane/searchkick#partial-matches). I followed the README and added this to my Drawing model:
 ```ruby
