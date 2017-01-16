@@ -57,3 +57,17 @@ I had to squish them together like
 ```ruby
 Drawing.search(params[:term], limit: 30, fields: [{number: :text_end, number: :text_middle}])
 ```
+
+Command Line
+=====
+
+Hotel
+-----
+
+### Adding a Rails project
+
+When in the project folder, just do
+```
+hotel add 'rails server -p $PORT -b 127.0.0.1'
+```
+and you're all set!
