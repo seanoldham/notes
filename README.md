@@ -61,7 +61,7 @@ Drawing.search(params[:term], limit: 30, fields: [{number: :text_end, number: :t
 Command Line
 =====
 
-Hotel
+[Hotel](https://github.com/typicode/hotel)
 -----
 
 ### Adding a Rails project
