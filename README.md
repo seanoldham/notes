@@ -61,6 +61,11 @@ Drawing.search(params[:term], limit: 30, fields: [{number: :text_end, number: :t
 Command Line
 =====
 
+### Open Directory in Finder
+
+I feel dumb for having to write this one up, but all it takes is `open .` for the current directory.
+
+
 [Hotel](https://github.com/typicode/hotel)
 -----
 
