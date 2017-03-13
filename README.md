@@ -1,14 +1,17 @@
 My web development notes, snippets, and whatnot.
 
-# [Ruby](ruby)
+* [Ruby](#ruby)
+* [Ruby on Rails](#ruby-on-rails)
+* [Command Line](#command-line)
+
+# Ruby
 
   * ## [Hash](ruby/hash.md)
 
     * [Dig](ruby/hash.md#dig)
 
 
-# [Ruby on Rails](rails)
-
+# Ruby on Rails
 
   * ## [Params](rails/params.md)
 
@@ -16,7 +19,7 @@ My web development notes, snippets, and whatnot.
 
     * [Partial Match](rails/searchkick.md#partial-match)
 
-# [Command Line](command-line.md)
+# Command Line
 
   * ## [Open Directory in Finder](command-line.md#open-directory-in-finder)
 
