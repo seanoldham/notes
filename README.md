@@ -1,17 +1,21 @@
 My web development notes, snippets, and whatnot.
 
-[Ruby](ruby)
-=====
+# [Ruby](ruby)
 
-Ruby on Rails
-=====
+  * ## [Hash](ruby/hash.md)
+
+    * ### [Dig](ruby/hash.md#dig)
+
+
+# Ruby on Rails
+
 
 ### Params
 
 Let's say we have two models, `Collection` and `Product`. A `Collection` can have many `Products` and a `Product` can be in many `Collections`. Let's also say that when creating a new `Product`, we already know which `Collections` we want it to be in. We'll want to whitelist the `collection_ids` param in the `products_controller` so we can pass that info when we create our `Product`. Since there could be multiple `Collections` passed, we'll want to write it like this: `params.require(:product).permit(:all, :the, :other, :params, collection_ids: [])`. This allows an array of `Collections` to be passed instead of a single value.
 
-[Searchkick](http://searchkick.org)
------
+## [Searchkick](http://searchkick.org)
+
 
 ### Partial Match
 
@@ -28,8 +32,8 @@ I had to squish them together like
 Drawing.search(params[:term], limit: 30, fields: [{number: :text_end, number: :text_middle}])
 ```
 
-Command Line
-=====
+# Command Line
+
 
 ### Open Directory in Finder
 
