@@ -4,7 +4,7 @@ My web development notes, snippets, and whatnot.
 
   * ## [Hash](ruby/hash.md)
 
-    * ### [Dig](ruby/hash.md#dig)
+    * [Dig](ruby/hash.md#dig)
 
 
 # Ruby on Rails
