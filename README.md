@@ -1,6 +1,6 @@
 My web development notes, snippets, and whatnot.
 
-[Ruby](ruby/hash.md)
+[Ruby](ruby)
 =====
 
 Ruby on Rails
