@@ -1,5 +1,4 @@
-Hash
-=====
+# Hash
 
 ## [Dig](http://ruby-doc.org/core-2.3.0/Hash.html#method-i-dig)
 
