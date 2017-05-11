@@ -1,5 +1,9 @@
 # Command Line
 
+## Clear Screen
+
+Instead of typing `clear`, just use `Cmd+k`.
+
 ## Open Directory in Finder
 
 I feel dumb for having to write this one up, but all it takes is `open .` for the current directory.
